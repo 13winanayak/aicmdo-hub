@@ -50,7 +50,7 @@ const defaultFilters: FilterState = {
   timeRange: 'today',
   source: [],
   status: [],
-  assignedTo: '',
+  assignedTo: 'all',
   region: [],
 };
 

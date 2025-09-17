@@ -244,7 +244,7 @@ export function Sidebar() {
                   <SelectValue placeholder="All members" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All members</SelectItem>
+                  <SelectItem value="all">All members</SelectItem>
                   {teamMembers.map((member) => (
                     <SelectItem key={member} value={member}>{member}</SelectItem>
                   ))}
